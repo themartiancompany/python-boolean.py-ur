@@ -1,5 +1,6 @@
-# SPDX-FileCopyrightText: 2019 Max Mehl
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2019 Max Mehl 
+# SPDX-FileCopyrightText: 2024 Pellegrino Prevete 
+# SPDX-License-Identifier: AGPL-3.0
 #
 # Maintainer:  George Rawlinson <grawlinson@archlinux.org>
 # Contributor: Max Mehl <aur at mehl dot mx>
@@ -47,3 +48,5 @@ package() {
 }
 
 # vim:set sw=2 sts=-1 et:
+#!/usr/bin/env bash
+#
