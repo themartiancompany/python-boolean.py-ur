@@ -1,7 +1,10 @@
-# Maintainer: George Rawlinson <grawlinson@archlinux.org>
-# Contributor: Max Mehl <aur at mehl dot mx>
 # SPDX-FileCopyrightText: 2019 Max Mehl
 # SPDX-License-Identifier: CC0-1.0
+#
+# Maintainer:  George Rawlinson <grawlinson@archlinux.org>
+# Contributor: Max Mehl <aur at mehl dot mx>
+# Maintainer:  Pellegrino Prevete <cGVsbGVncmlub3ByZXZldGVAZ21haWwuY29tCg== | base -d>
+# Maintainer:  Truocolo <truocolo@aol.com>
 
 pkgname='python-boolean.py'
 pkgver=4.0
@@ -43,4 +46,4 @@ package() {
   install -Dm644 -t "$pkgdir/usr/share/licenses/$pkgname" LICENSE.txt
 }
 
-# vim: ts=2 sw=2 et:
+# vim:set sw=2 sts=-1 et:

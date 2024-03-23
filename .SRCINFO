@@ -1,0 +1,15 @@
+pkgbase = python-boolean.py
+	pkgdesc = Implements boolean algebra in one module
+	pkgver = 4.0
+	pkgrel = 2
+	url = https://github.com/bastikr/boolean.py
+	arch = any
+	license = BSD
+	checkdepends = python-pytest
+	makedepends = git
+	makedepends = python-setuptools
+	depends = python
+	source = python-boolean.py::git+https://github.com/bastikr/boolean.py#commit=93589c505c256eead9757402e908fcfdc1bb5ec5
+	b2sums = SKIP
+
+pkgname = python-boolean.py
